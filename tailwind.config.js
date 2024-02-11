@@ -15,7 +15,11 @@ export default {
       italic: ["JosefinSans"],
       bold: ["JosefinSans"],
     },
-    extend: {},
+    extend: {
+      flexGrow: {
+        2: '2',
+      }
+    },
   },
   plugins: [
     require("daisyui"),

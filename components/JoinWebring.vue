@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2 class="font-display text-3xl text-primary">join. now</h2>
+        <h2 class="font-display text-3xl text-primary" id="join">join. now.</h2>
         contact zoe or tiger to join
         <h3 class="text-secondary text-2xl font-display">zoe</h3>
         <ul class="list-disc list-inside">

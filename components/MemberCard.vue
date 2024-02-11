@@ -1,22 +1,21 @@
 <template>
-  
-  <a :href="member.url.href" class="btn h-full w-full flex gap-3 p-5">
-    <img v-if="member.image" class="rounded-3xl w-full h-auto" :src="(member.image.url.toString())" :alt="member.image.description" />
-    <div>
-      <h3 class="text-secondary text-2xl font-display">{{ member.displayname }}</h3>
+  <a :href="member.url.href" class="btn flex h-full w-full gap-3 p-5">
+    <img
+      v-if="member.image"
+      class="h-auto w-full rounded-3xl"
+      :src="member.image.url.toString()"
+      :alt="member.image.description"
+    />
+    <div class="flex flex-col gap-1">
+      <div class="flex flex-row flex-wrap items-center justify-center gap-1">
+        <h3 class="font-display text-2xl text-secondary">
+          {{ member.displayname }}
+        </h3>
+        <div class="badge badge-outline">{{ member.pronouns }}</div>
+      </div>
       <p class="" v-if="member.description">{{ member.description }}</p>
     </div>
   </a>
-
-  <!-- <a :href="member.url.href" class="btn">
-  <div class="card bg-base-300 h-full w-full">
-    <img v-if="member.image" class="p-5 rounded-3xl" :src="(member.image.url.toString())" :alt="member.image.description" />
-    <div class="card-body">
-      <h3 class="card-title">{{ member.displayname }}</h3>
-      <p v-if="member.description">{{ member.description }}</p>
-    </div>
-  </div>
-  </a> -->
 </template>
 
 <script setup lang="ts">

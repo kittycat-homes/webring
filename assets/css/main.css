@@ -3,23 +3,27 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "JosefinSans";
-    src: url("/fonts/JosefinSans-VariableFont_wght.ttf");
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-VariableFont_wght.ttf");
 }
 
 @font-face {
-    font-family: "JosefinSans";
-    src: url("/fonts/JosefinSans-Italic-VariableFont_wght.ttf");
-    font-style: italic;
+  font-family: "JosefinSans";
+  src: url("/fonts/JosefinSans-Italic-VariableFont_wght.ttf");
+  font-style: italic;
 }
 
 @font-face {
-    font-family: "Mikoena-Demo";
-    src: url("/fonts/Mikoena-Demo.ttf");
+  font-family: "Mikoena-Demo";
+  src: url("/fonts/Mikoena-Demo.ttf");
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.rtl-grid {
+  direction: rtl;
 }
