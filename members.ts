@@ -30,6 +30,7 @@ export const members: Array<Member> = [
     username: "zoe",
     pronouns: "they/them",
     url: "https://zoe.kittycat.homes",
+    description: "world's best at rotating things in my brain",
     image: {
       url: "/images/zoe.svg",
       description: "mutant standard bat emoji",
