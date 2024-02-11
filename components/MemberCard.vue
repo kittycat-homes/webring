@@ -11,7 +11,7 @@
         <h3 class="font-display text-2xl text-secondary">
           {{ member.displayname }}
         </h3>
-        <div class="badge badge-outline">{{ member.pronouns }}</div>
+        <div class="badge badge-outline h-auto p-1">{{ member.pronouns }}</div>
       </div>
       <p class="" v-if="member.description">{{ member.description }}</p>
     </div>
