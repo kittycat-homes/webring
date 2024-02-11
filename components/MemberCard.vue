@@ -1,5 +1,5 @@
 <template>
-  <a :href="member.url.href" class="btn flex h-full w-full gap-3 p-5">
+  <a :href="member.url" class="btn flex h-full w-full gap-3 p-5">
     <img
       v-if="member.image"
       class="h-auto w-full rounded-3xl"

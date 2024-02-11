@@ -1,13 +1,13 @@
 <template>
   <div class="@container">
     <div class="grid grid-cols-1 gap-5 @xs:grid-cols-3">
-      <a class="btn" :href="relation.last.url.toString()">{{
+      <a class="btn" :href="relation.last.url">{{
         relation.last.displayname
       }}</a>
       <a class="btn" href="https://webring.kittycat.homes"
         >kittycat.homes<br />webring</a
       >
-      <a class="btn" :href="relation.next.url.toString()">{{
+      <a class="btn" :href="relation.next.url">{{
         relation.next.displayname
       }}</a>
     </div>

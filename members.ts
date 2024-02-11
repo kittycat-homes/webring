@@ -7,7 +7,7 @@ export type Member = {
   displayname: string;
   username: string;
   pronouns: string;
-  url: URL;
+  url: string;
   description?: string;
   image?: MemberImage;
 };
@@ -18,7 +18,7 @@ export const members: Array<Member> = [
     displayname: "tiger",
     pronouns: "she/her",
     username: "tiger",
-    url: new URL("https://tiger.kittycat.homes"),
+    url: "https://tiger.kittycat.homes",
     description: "the tiger",
     image: {
       url: "/images/tiger-pink.webp",
@@ -29,7 +29,7 @@ export const members: Array<Member> = [
     displayname: "zoe",
     username: "zoe",
     pronouns: "they/them",
-    url: new URL("https://zoe.kittycat.homes"),
+    url: "https://zoe.kittycat.homes",
     image: {
       url: "/images/zoe.svg",
       description: "mutant standard bat emoji",
@@ -60,7 +60,7 @@ export type MemberRelation = {
 
 export function memberInRelation(index: number): MemberRelation {
   return {
-    last: members[(index - 1) % members.length],
+    last: members[Math.abs((index - 1) % members.length)],
     current: members[index % members.length],
     next: members[(index + 1) % members.length],
   };
