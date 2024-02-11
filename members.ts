@@ -44,7 +44,8 @@ export const members: Array<Member> = [
     description: "girliepop high with blossoms and rainbows and autism",
     image: {
       url: "/images/elysia.webp",
-      description: "pink image with a kitty type creature. next to it it says elysia",
+      description:
+        "pink image with a kitty type creature. next to it it says elysia",
     },
   },
   {
@@ -54,8 +55,9 @@ export const members: Array<Member> = [
     url: "https://erysdren.me/",
     image: {
       url: "/images/erysdren.png",
-      description: "a fuzzy humanoid shape, vaguely feminine, under an overwhelmingly bright light"
-    }
+      description:
+        "a fuzzy humanoid shape, vaguely feminine, under an overwhelmingly bright light",
+    },
   },
 ];
 
@@ -67,7 +69,17 @@ export function memberRoutes(): Array<string> {
   const frameRoutes = members.map((member) => {
     return `/frame/${member.username}`;
   });
-  return jsonRoutes.concat(frameRoutes);
+  const nextRoutes = members.map((member) => {
+    return `/next/${member.username}`;
+  });
+  const lastRoutes = members.map((member) => {
+    return `/next/${member.username}`;
+  });
+  return jsonRoutes
+    .concat(frameRoutes)
+    .concat(nextRoutes)
+    .concat(lastRoutes)
+    .concat("/everyone.json");
 }
 
 export function doesMemberAndPathMatch(member: Member, path: string): boolean {
