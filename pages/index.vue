@@ -1,7 +1,9 @@
 <template>
   <div class="grid min-h-screen gap-5 p-5">
-    <h1 class="pb-32 pt-32 text-center font-display text-7xl text-primary">
-      kittycat.homes webring™
+    <h1
+      class="pb-32 pt-32 text-center font-display text-4xl text-primary md:text-5xl lg:text-7xl"
+    >
+      kittycat dot homes webring™
     </h1>
     <div class="flex flex-col gap-5 lg:flex-row-reverse">
       <MemberList class="flex-1 flex-grow-[14] p-5" />
