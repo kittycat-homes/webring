@@ -1,4 +1,4 @@
-import { doesMemberAndPathMatch, memberInRelation, members } from "~/members";
+import { members } from "~/members";
 
 export default defineEventHandler(async (event) => {
   event.node.res.setHeader("content-type", "application/json");

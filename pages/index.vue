@@ -1,5 +1,8 @@
 <template>
   <div>
-    <p>the kitty</p>
+    <MemberList />
   </div>
 </template>
+
+<script setup lang="ts">
+</script>
