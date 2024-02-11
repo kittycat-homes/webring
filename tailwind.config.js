@@ -17,9 +17,37 @@ export default {
     },
     extend: {
       flexGrow: {
-        2: '2',
-      }
+        2: "2",
+      },
     },
+  },
+  daisyui: {
+    themes: [
+      {
+        light: {
+          primary: "#CD395E",
+          secondary: "#E87E98",
+          accent: "#EC587C",
+          neutral: "#16090C",
+          "base-100": "#FAF1F3",
+          info: "#ffffff",
+          success: "#00ffff",
+          warning: "#ffffff",
+          error: "#ffffff",
+        },
+        dark: {
+          primary: "#A8EE90",
+          secondary: "#168F63",
+          accent: "#38E1CF",
+          neutral: "#E6FAE0",
+          "base-100": "#0C1708",
+          info: "#ffffff",
+          success: "#00ffff",
+          warning: "#ffffff",
+          error: "#ffffff",
+        },
+      },
+    ],
   },
   plugins: [
     require("daisyui"),
