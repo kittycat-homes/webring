@@ -21,3 +21,9 @@ export const members: Array<Member> = [
     url: new URL("https://zoe.kittycat.homes"),
   },
 ];
+
+export function memberRoutes(): Array<string> {
+  return members.map((member) => {
+    return `members/${member.name}.json`;
+  });
+}
