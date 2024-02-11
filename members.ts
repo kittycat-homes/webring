@@ -35,16 +35,6 @@ export const members: Array<Member> = [
       description: "mutant standard bat emoji",
     },
   },
-  {
-    displayname: "zoey",
-    username: "zoey",
-    pronouns: "they/them",
-    url: "https://zoe.kittycat.homes",
-    image: {
-      url: "/images/zoe.svg",
-      description: "mutant standard bat emoji",
-    },
-  },
 ];
 
 // tells the router where the json pages for members are
