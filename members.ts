@@ -46,6 +46,16 @@ export const members: Array<Member> = [
       description: "pink image with a kitty type creature. next to it it says elysia",
     },
   },
+  {
+    displayname: "erysdren",
+    pronouns: "it/she/they",
+    username: "erysdren",
+    url: "https://erysdren.me/",
+    image: {
+      url: "/images/erysdren.png",
+      description: "a fuzzy humanoid shape, vaguely feminine, under an overwhelmingly bright light"
+    }
+  },
 ];
 
 // tells the router where the json pages for members are
