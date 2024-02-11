@@ -35,6 +35,17 @@ export const members: Array<Member> = [
       description: "mutant standard bat emoji",
     },
   },
+  {
+    displayname: "elysia",
+    pronouns: "it she they fae xyr etc",
+    username: "elysia",
+    url: "https://le.alphamethyl.barr0w.net/~elysia/index.html",
+    description: "girliepop high with blossoms and rainbows and autism",
+    image: {
+      url: "/images/elysia.webp",
+      description: "pink image with a kitty type creature. next to it it says elysia",
+    },
+  },
 ];
 
 // tells the router where the json pages for members are
