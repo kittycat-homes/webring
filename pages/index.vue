@@ -21,5 +21,6 @@
 </template>
 
 <script setup lang="ts">
-definePageMeta({ layout: "default" });
+definePageMeta({ layout: "default"});
+useHead({title: "kittycat dot homes webring"})
 </script>
