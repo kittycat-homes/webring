@@ -19,7 +19,7 @@ export const members: Array<Member> = [
     pronouns: "she/her",
     username: "tiger",
     url: "https://tiger.kittycat.homes",
-    description: "the tiger",
+    description: "funny little creature who does stuff",
     image: {
       url: "/images/tiger-pink.webp",
       description: "google noto color emoji tiger but it's pink",
