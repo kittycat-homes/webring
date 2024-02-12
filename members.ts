@@ -6,7 +6,7 @@ export type MemberImage = {
 export type Member = {
   displayname: string;
   username: string;
-  pronouns: string;
+  pronouns?: string;
   url: string;
   description?: string;
   image?: MemberImage;
