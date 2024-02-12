@@ -1,5 +1,5 @@
 <template>
-  <div class="@container">
+  <div class="@container break-all">
     <h2 class="font-display text-3xl text-primary" id="join">join. now.</h2>
     <div class="grid gap-5 @md:grid-cols-2 @7xl:grid-cols-5">
       <div>
