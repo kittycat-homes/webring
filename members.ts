@@ -21,7 +21,7 @@ export const members: Array<Member> = [
     url: "https://tiger.kittycat.homes",
     description: "funny little creature who does stuff",
     image: {
-      url: "/images/tiger-pink.webp",
+      url: "/images/tiger.webp",
       description: "google noto color emoji tiger but it's pink",
     },
   },
