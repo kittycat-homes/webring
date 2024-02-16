@@ -39,6 +39,14 @@
             (e-mail)
           </li>
           <li>
+            <a
+              class="link"
+              href="https://matrix.to/#/@tiger:matrix.kittycat.homes"
+              >@tiger:matrix.kittycat.homes</a
+            >
+            (matrix)
+          </li>
+          <li>
             <a class="link" href="https://discord.com/users/152843864342790145"
               >comforttiger</a
             >
